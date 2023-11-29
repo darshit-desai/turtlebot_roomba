@@ -3,7 +3,7 @@
 <package format="3">
   <name>tbot_roomba</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Roomba walker emulator package</description>
   <maintainer email="desai0681@gmail.com">darshit</maintainer>
   <license>MIT</license>
 
