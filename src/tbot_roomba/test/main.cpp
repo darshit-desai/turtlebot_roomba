@@ -4,11 +4,11 @@
  * @brief Main file for running tests
  * @version 0.1
  * @date 2023-11-29
- * @note This code is derived from the repo: 
+ * @note This code is derived from the repo:
  * https://github.com/TommyChangUMD/minimal-integration-test/tree/main
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 
 #include <gtest/gtest.h>
