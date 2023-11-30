@@ -35,6 +35,17 @@ ros2 bag info walker_bag/
 ros2 bag play walker_bag/walker_bag_0.db3
 ```
 
+### CppCheck & CppLint
+```bash
+# Use the below command for cpp check by moving to root directory of your workspace
+cppcheck --enable=all --std=c++17 --suppress=missingIncludeSystem $( find . -name *.cpp | grep -vE -e "^(./build/|./install/|./log/)" ) --check-config  &> Results/cppcheck.txt
+
+# Use the below command for cpp lint by moving to root directory of your workspace 
+cpplint  --filter=-build/c++11,+build/c++17,-build/namespaces,-build/include_order $( find . -name *.cpp | grep -vE -e "^(./build/|./install/|./log/)" ) &> Results/cpplint.txt 
+
+## The results of both are present in results folder insider beginner_tutorials directory
+```
+
 # Results
 The following gif shows an example run of the turtlebot3 in the map,
 
