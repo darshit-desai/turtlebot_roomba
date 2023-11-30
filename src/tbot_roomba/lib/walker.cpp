@@ -51,7 +51,7 @@ void TBot_Walker::scan_callback(
     } else {
       RCLCPP_INFO_STREAM(rclcpp::get_logger("tbot_walker"), "Turning Left!");
     }
-    cmd_vel_msg.angular.z = random_turn * 0.75;
+    cmd_vel_msg.angular.z = random_turn * 1.0;
   } else {
     std::random_device rd;
     std::mt19937 gen(rd());

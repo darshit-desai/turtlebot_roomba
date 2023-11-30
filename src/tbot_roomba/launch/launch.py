@@ -11,7 +11,7 @@ import os
 
 def generate_launch_description():
     return LaunchDescription([
-    DeclareLaunchArgument('rosbag_record', default_value = 'false', choices = ['true', 'false'], description = "Enable recording all topics except camera?"),
+    DeclareLaunchArgument('rosbag_record', default_value = 'false', choices = ['true', 'false'], description = "Enable rosbag recording"),
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource([
                 os.path.join(get_package_share_directory(
