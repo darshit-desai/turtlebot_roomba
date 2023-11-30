@@ -4,7 +4,7 @@
   <name>tbot_roomba</name>
   <version>0.0.0</version>
   <description>Roomba walker emulator package</description>
-  <maintainer email="desai0681@gmail.com">darshit</maintainer>
+  <maintainer email="darshit@umd.edu">Darshit Desai</maintainer>
   <license>MIT</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
